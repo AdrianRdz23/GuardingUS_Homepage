@@ -57,8 +57,7 @@ En este flow chart se demuestra en como funciona la aplicacion una vez que tenga
 <div align="center">
     <img src='https://raw.githubusercontent.com/AdrianRdz23/GuardingUS_Homepage/main/Assets/APIdesign.png' width=480>
 
-This is a sitemap for Steepl. This diagram shows all pages in the app and how they are connected to each other.
-This image is an API Design
+This image is an API Design of Guarding US
 </div>
 
 
@@ -80,6 +79,16 @@ Guarding US usa a MYSQL database con un total de seis tables, por el momento.
 
 <br>
 
+## Sitemap
+
+<div align="center">
+    <img src='https://raw.githubusercontent.com/AdrianRdz23/GuardingUS_Homepage/main/Assets/er_diagram.png' width=480>
+
+Sitemap of Guarding US
+</div>
+
+##
+
 
 
 # Code Snippits
@@ -88,6 +97,39 @@ Guarding US usa a MYSQL database con un total de seis tables, por el momento.
 ##
 
 ## IActionResult Function to Select the resident(s) to send a Notification
+
+```c
+        public IActionResult SendNotificationProcess(UserNotificationListViewModel userNotificationListViewModel)
+        {
+
+            // step 3 - not visible to the user.  Background process.
+            // process each checked user.  Add a notification to the db.
+            if (Request.Form["action"] == "Send")
+            {
+                SecurityGuardDAO guardDAO = new SecurityGuardDAO();
+
+                foreach (var user in userNotificationListViewModel.NotificationsList)
+                {
+                    if (user.notification.IsSelected == true)
+                    {
+                        //Apply the method to send a user the notification on the database
+                        guardDAO.SendUser(user);
+                    }
+                }
+            }
+            else if (Request.Form["action"] == "Send Everyone")
+            {
+                SecurityGuardDAO guardDAO = new SecurityGuardDAO();
+
+                foreach (var user in userNotificationListViewModel.NotificationsList)
+                {
+                    //Apply the method to send a user the notification on the database
+                    guardDAO.SendUser(user);
+                }
+            }
+            return View("SecurityGuardView");
+        }
+```
 
 <div align="center">
 This function takes in the video IDs from the database, fetches the video details for each ID via the YouTube Data API, and stores the retrieved data in JSON format in a returned array.
