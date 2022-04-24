@@ -32,7 +32,7 @@ Guarding US is a web application that contains security functions in order to pr
 ## Physical Architecture
 
 <div align="center">
-    <img src='https://raw.githubusercontent.com/collinwillis/GuardingUS_Homepage/main/Assets/PhysicalArchitecture.png' width=480>
+    <img src='https://raw.githubusercontent.com/AdrianRdz23/GuardingUS_Homepage/main/Assets/PhysicalArchitecture.png' width=480>
 
 
 Para poder usar la web aplication se necesita una computadora/laptop y un internet service. Es recomendable que la aplicacion se use en Google Chrome. En la segunda etapa de este proyecto, tambien se va a poder usar con un dispositivo movil, empezando con los dispositivos Android.
@@ -41,7 +41,7 @@ Para poder usar la web aplication se necesita una computadora/laptop y un intern
 ## Logical Flow Chart
 
 <div align="center">
-    <img src='https://raw.githubusercontent.com/collinwillis/GuardingUS_Homepage/main/Assets/logical.png' width=480>
+    <img src='https://raw.githubusercontent.com/AdrianRdz23/GuardingUS_Homepage/main/Assets/logical.png' width=480>
 
 This diagram shows the flow of the possible ways a user could interact with the application. This is not a sitemap.
 En este flow chart se demuestra en como funciona la aplicacion una vez que tengas una account y puedas iniciar sesion.
@@ -55,7 +55,7 @@ En este flow chart se demuestra en como funciona la aplicacion una vez que tenga
 ## API Design
 
 <div align="center">
-    <img src='https://raw.githubusercontent.com/collinwillis/GuardingUS_Homepage/main/Assets/APIdesign.png' width=480>
+    <img src='https://raw.githubusercontent.com/AdrianRdz23/GuardingUS_Homepage/main/Assets/APIdesign.png' width=480>
 
 This is a sitemap for Steepl. This diagram shows all pages in the app and how they are connected to each other.
 This image is an API Design
@@ -70,7 +70,7 @@ This image is an API Design
 ## UML Design Diagram
 
 <div align="center">
-    <img src='https://raw.githubusercontent.com/collinwillis/GuardingUS_Homepage/main/Assets/er_diagram.png' width=480>
+    <img src='https://raw.githubusercontent.com/AdrianRdz23/GuardingUS_Homepage/main/Assets/er_diagram.png' width=480>
 
 Steepl uses a NoSQL firestore database. This diagram shows the database collections' and subcollections' structure.
 Guarding US usa a MYSQL database con un total de seis tables, por el momento.
@@ -81,9 +81,9 @@ Guarding US usa a MYSQL database con un total de seis tables, por el momento.
 <br>
 
 ## Youtube Video Detail Retrieval Diagram
-#### <a href="https://raw.githubusercontent.com/collinwillis/Steepl_Homepage/main/Assets/video_diagram1.png?raw=true">Diagram Link</a>
+#### <a href="https://raw.githubusercontent.com/AdrianRdz23/Steepl_Homepage/main/Assets/video_diagram1.png?raw=true">Diagram Link</a>
 <div align="center">
-    <img src='https://raw.githubusercontent.com/collinwillis/Steepl_Homepage/main/Assets/video_diagram1.png' width=480>
+    <img src='https://raw.githubusercontent.com/AdrianRdz23/Steepl_Homepage/main/Assets/video_diagram1.png' width=480>
 
 This diagram demonstrates the method behind how Youtube videos and their properties like title, thumbnail, creator, etc. are interacted with by the Steepl application. 
 Firebase stores a Youtube video ID and that is used with the Youtube Data API to return required data about the video’s properties. When a video is clicked the Steepl application will open the Youtube application on the user’s device by combining a YouTube URL with the ID to open the clicked video.
