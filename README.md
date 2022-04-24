@@ -69,7 +69,7 @@ This image is an API Design of Guarding US
 ## UML Design Diagram
 
 <div align="center">
-    <img src='https://raw.githubusercontent.com/AdrianRdz23/GuardingUS_Homepage/main/Assets/er_diagram.png' width=480>
+    <img src='https://raw.githubusercontent.com/AdrianRdz23/GuardingUS_Homepage/main/Assets/uml.png' width=480>
 
 Steepl uses a NoSQL firestore database. This diagram shows the database collections' and subcollections' structure.
 Guarding US usa a MYSQL database con un total de seis tables, por el momento.
@@ -82,7 +82,7 @@ Guarding US usa a MYSQL database con un total de seis tables, por el momento.
 ## Sitemap
 
 <div align="center">
-    <img src='https://raw.githubusercontent.com/AdrianRdz23/GuardingUS_Homepage/main/Assets/er_diagram.png' width=480>
+    <img src='https://raw.githubusercontent.com/AdrianRdz23/GuardingUS_Homepage/main/Assets/Sitemao.png' width=480>
 
 Sitemap of Guarding US
 </div>
