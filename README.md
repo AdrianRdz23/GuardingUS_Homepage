@@ -128,15 +128,7 @@ This function is called when the user selects a mood from the "How Are You Feeli
 <br>
 
 # Credits/Links
-Technologies/Software that power Steepl:
-
-[React Native](https://github.com/facebook/react-native "React Native")
-
-[Redux Toolkit](https://github.com/reduxjs/redux-toolkit "Redux Toolkit")
-
-[Youtube Data API](https://developers.google.com/youtube/v3 "Youtube Data API")
-
-[Firebase](https://firebase.google.com/ "Firebase")
+Technologies/Software of Guarding US:
 
 
 
