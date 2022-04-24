@@ -35,7 +35,8 @@ Guarding US is a web application that contains security functions in order to pr
     <img src='https://raw.githubusercontent.com/AdrianRdz23/GuardingUS_Homepage/main/Assets/PhysicalArchitecture.png' width=480>
 
 
-Para poder usar la web aplication se necesita una computadora/laptop y un internet service. Es recomendable que la aplicacion se use en Google Chrome. En la segunda etapa de este proyecto, tambien se va a poder usar con un dispositivo movil, empezando con los dispositivos Android.
+To be able to use the web application you need a computer/laptop and an internet service. It is recommended that the application be used in Google Chrome. In the second stage of this project, it will also be able to be used with a mobile device, starting with Android devices.
+    
 </div>
 
 ## Logical Flow Chart
@@ -43,8 +44,7 @@ Para poder usar la web aplication se necesita una computadora/laptop y un intern
 <div align="center">
     <img src='https://raw.githubusercontent.com/AdrianRdz23/GuardingUS_Homepage/main/Assets/logical.png' width=480>
 
-This diagram shows the flow of the possible ways a user could interact with the application. This is not a sitemap.
-En este flow chart se demuestra en como funciona la aplicacion una vez que tengas una account y puedas iniciar sesion.
+This flow chart demonstrates how the app works once you have an account and can log in.
 </div>
 
 
@@ -71,8 +71,7 @@ This image is an API Design of Guarding US
 <div align="center">
     <img src='https://raw.githubusercontent.com/AdrianRdz23/GuardingUS_Homepage/main/Assets/uml.png' width=480>
 
-Steepl uses a NoSQL firestore database. This diagram shows the database collections' and subcollections' structure.
-Guarding US usa a MYSQL database con un total de seis tables, por el momento.
+
 </div>
 
 ##
@@ -91,7 +90,7 @@ Sitemap of Guarding US
 
 
 
-# Code Snippits
+# Code Snippets
 
 
 ##
@@ -132,7 +131,7 @@ Sitemap of Guarding US
 ```
 
 <div align="center">
-This function takes in the video IDs from the database, fetches the video details for each ID via the YouTube Data API, and stores the retrieved data in JSON format in a returned array.
+This function is about notifications when an administrator or a security guard sends a message to the resident. You have two options: select the residents you want to send a notification or send it to everyone.
 </div>
 <br>
 
@@ -142,10 +141,31 @@ This function takes in the video IDs from the database, fetches the video detail
 
 ##
 
-## Add a Visitor Function
+## Add a Visitor 
+
+```csharp
+        //Action to go to add entrance View
+        public IActionResult AddEntranceView()
+        {
+
+            List<String> addresslist = new List<String>();
+
+            //Get all the addresses of the home table (non-repeatable names of the address)
+            foreach (var address in _context.Home.GroupBy(p => p.address).Select(p => new { address = p.Key }).ToArray())
+            {
+                addresslist.Add(address.address);
+            }
+
+
+
+            ViewBag.ListofHome = addresslist;
+
+            return View();
+        }
+```
 
 <div align="center">
-This function is called when the user selects a mood from the "How Are You Feeling" options (moods). This function retrieves a set quantity of each content type (verses, videos, and testimonies) from each topic that has the same scale level as the mood selected. The retrieved content is randomized and then returned.
+In this function it sends the view where the security guard will add visitor information that comes to enter the private subdivision. In addition to entering the view, we also bring a list of addresses to be able to choose with a dropdownlist which address is where the visitor will go.
 </div>
 <br>
 
@@ -159,14 +179,6 @@ This function is called when the user selects a mood from the "How Are You Feeli
 
 
 
-<br>
-<br>
-
-# Diagram Image Links
-
-
-
-<br>
 <br>
 
 # Credits/Links
