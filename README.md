@@ -82,7 +82,7 @@ Guarding US usa a MYSQL database con un total de seis tables, por el momento.
 ## Sitemap
 
 <div align="center">
-    <img src='https://raw.githubusercontent.com/AdrianRdz23/GuardingUS_Homepage/main/Assets/Sitemao.png' width=480>
+    <img src='https://raw.githubusercontent.com/AdrianRdz23/GuardingUS_Homepage/main/Assets/Sitemap.png' width=480>
 
 Sitemap of Guarding US
 </div>
