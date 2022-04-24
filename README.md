@@ -175,7 +175,7 @@ In this function it sends the view where the security guard will add visitor inf
 
 ##
 
-# Downloadable Documents
+# Extra Documents
 
 
 
