@@ -98,7 +98,7 @@ Sitemap of Guarding US
 
 ## IActionResult Function to Select the resident(s) to send a Notification
 
-```c
+```csharp
         public IActionResult SendNotificationProcess(UserNotificationListViewModel userNotificationListViewModel)
         {
 
