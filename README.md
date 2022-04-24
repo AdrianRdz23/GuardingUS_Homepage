@@ -12,15 +12,15 @@ Guarding US is a web application that contains security functions in order to pr
 ## Key Features
 
 #### Administrators:
--Administrating Catalogs: Roles, Users, and Homes
--Send Notifications to Residents
--Exits and Entrances History
+- Administrating Catalogs: Roles, Users, and Homes
+- Send Notifications to Residents
+- Exits and Entrances History
 #### Security Guards:
--Administrating Catalogs: Roles, Users, and Homes
--Send Notifications to Residents
--Exits and Entrances History
+- Administrating Catalogs: Roles, Users, and Homes
+- Send Notifications to Residents
+- Exits and Entrances History
 #### Residents:
--See his/her notifications
+- See his/her notifications
 
 <br>
 
