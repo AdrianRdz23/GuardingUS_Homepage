@@ -80,19 +80,7 @@ Guarding US usa a MYSQL database con un total de seis tables, por el momento.
 
 <br>
 
-## Youtube Video Detail Retrieval Diagram
-#### <a href="https://raw.githubusercontent.com/AdrianRdz23/Steepl_Homepage/main/Assets/video_diagram1.png?raw=true">Diagram Link</a>
-<div align="center">
-    <img src='https://raw.githubusercontent.com/AdrianRdz23/Steepl_Homepage/main/Assets/video_diagram1.png' width=480>
 
-This diagram demonstrates the method behind how Youtube videos and their properties like title, thumbnail, creator, etc. are interacted with by the Steepl application. 
-Firebase stores a Youtube video ID and that is used with the Youtube Data API to return required data about the video’s properties. When a video is clicked the Steepl application will open the Youtube application on the user’s device by combining a YouTube URL with the ID to open the clicked video.
-
-</div>
-
-##
-
-<br>
 
 # Code Snippits
 
