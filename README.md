@@ -188,6 +188,7 @@ In this function it sends the view where the security guard will add visitor inf
 
 # Credits/Links
 Technologies/Software of Guarding US:
+https://visualstudio.microsoft.com
 
-
+[Visual Studio](https://visualstudio.microsoft.com "Visual Studio")
 
