@@ -177,7 +177,7 @@ In this function it sends the view where the security guard will add visitor inf
 
 # Extra Documents
 
-
+<a href="https://github.com/AdrianRdz23/GuardingUS_Homepage/blob/main/Assets/ProjectProposalGuardingUS.docx?raw=true" download>Project_Proposal.docx</a>
 
 <br>
 
