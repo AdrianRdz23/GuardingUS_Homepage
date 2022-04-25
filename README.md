@@ -179,7 +179,7 @@ In this function it sends the view where the security guard will add visitor inf
 
 <a href="https://github.com/AdrianRdz23/GuardingUS_Homepage/blob/main/Assets/ProjectProposalGuardingUS.docx?raw=true" download>Project_Proposal.docx</a>
 <a href="https://github.com/AdrianRdz23/GuardingUS_Homepage/blob/main/Assets/ProjectRequirements.docx?raw=true" download>Project_Requirements.docx</a>
-<a href="https://github.com/AdrianRdz23/GuardingUS_Homepage/blob/main/Assets/Project Design GuardingUS.docx.docx?raw=true" download>Project_Design.docx</a>
+<a href="https://github.com/AdrianRdz23/GuardingUS_Homepage/blob/main/Assets/Project_Design_GuardingUS.docx.docx?raw=true" download>Project_Design.docx</a>
 
 
 <br>
