@@ -175,7 +175,7 @@ In this function it sends the view where the security guard will add visitor inf
 
 # Software Demo Video
 
-https://youtu.be/g5FPy2DM95k
+https://youtu.be/sDuoCrLLOyA
 
 <br>
 
